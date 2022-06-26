@@ -33,7 +33,7 @@ return [
     'facebook'=>[
         'client_id' => env (''),
         'client_secret'=>env(''),
-        'redirect'=>env('http://127.0.0.1:8000/callbackfromFacebooks')
+        'redirect'=>env('http://127.0.0.1:8000/callbackfromFacebook')
     ],
 
 ];

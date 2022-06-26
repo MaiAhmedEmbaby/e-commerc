@@ -38,6 +38,7 @@ class HomeController extends Controller
             return redirect()->back();
         }
     }
+
     public function index()
     {
         if(Auth::id())

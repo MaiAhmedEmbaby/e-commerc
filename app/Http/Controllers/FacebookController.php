@@ -13,11 +13,11 @@ class FacebookController extends Controller
 {
     public function loginUsingFacebook()
     {
-        //return  Socialite::driver('facebook')->redirect();
+        return  Socialite::driver('facebook')->redirect();
       // return socialite::driver('facebook')
     //->scopes(['read:user', 'public_repo'])
     //->redirect();
-    return redirect()->back();
+    //return redirect()->back();
     }
 
     public function callbackfromFacebook()

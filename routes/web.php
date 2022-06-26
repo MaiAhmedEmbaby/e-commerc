@@ -64,7 +64,7 @@ Route::get('/showuser',[AdminController::class,'showuser']);
 
 
 
-Route::get('/deleteuser/{id}',[AdminController::class,'delete']);
+Route::get('/deleteuser/{id}',[AdminController::class,'deleteuser']);
 
 //facebook login url
 //Route::prefix('facebook')->name('facebook.')->group( function(){/
